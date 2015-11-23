@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F6A9097337046BA360AEC8C /* libPods-iOSExercise.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E9CE5E4EC6D1F2884019519 /* libPods-iOSExercise.a */; };
 		8EF8B7381C03445000856EA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8B7371C03445000856EA0 /* main.m */; };
 		8EF8B73B1C03445000856EA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8B73A1C03445000856EA0 /* AppDelegate.m */; };
-		8EF8B73E1C03445000856EA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8B73D1C03445000856EA0 /* ViewController.m */; };
 		8EF8B7411C03445000856EA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF8B73F1C03445000856EA0 /* Main.storyboard */; };
 		8EF8B7431C03445000856EA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF8B7421C03445000856EA0 /* Assets.xcassets */; };
 		8EF8B7461C03445000856EA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF8B7441C03445000856EA0 /* LaunchScreen.storyboard */; };
 		8EF8B7511C03445000856EA0 /* iOSExerciseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8B7501C03445000856EA0 /* iOSExerciseTests.m */; };
 		8EF8B75C1C03445000856EA0 /* iOSExerciseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8B75B1C03445000856EA0 /* iOSExerciseUITests.m */; };
+		8EF8B76B1C03450500856EA0 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8B76A1C03450500856EA0 /* HomeTableViewController.m */; };
+		8EF8B7711C034AFE00856EA0 /* Noimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF8B7701C034AFE00856EA0 /* Noimage.png */; };
+		8EF8B7741C034BDD00856EA0 /* HttpCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8B7731C034BDD00856EA0 /* HttpCommands.m */; };
+		8EF8B7771C034CA200856EA0 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8B7761C034CA200856EA0 /* Parser.m */; };
+		8EF8B77A1C03565A00856EA0 /* Facts.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8B7791C03565A00856EA0 /* Facts.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E9CE5E4EC6D1F2884019519 /* libPods-iOSExercise.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSExercise.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B94A41ED2E01FB1F8173662 /* Pods-iOSExercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSExercise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSExercise/Pods-iOSExercise.debug.xcconfig"; sourceTree = "<group>"; };
 		8EF8B7331C03445000856EA0 /* iOSExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF8B7371C03445000856EA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EF8B7391C03445000856EA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8EF8B73A1C03445000856EA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8EF8B73C1C03445000856EA0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8EF8B73D1C03445000856EA0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8EF8B7401C03445000856EA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EF8B7421C03445000856EA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EF8B7451C03445000856EA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,16 @@
 		8EF8B7571C03445000856EA0 /* iOSExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF8B75B1C03445000856EA0 /* iOSExerciseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSExerciseUITests.m; sourceTree = "<group>"; };
 		8EF8B75D1C03445000856EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EF8B7691C03450500856EA0 /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		8EF8B76A1C03450500856EA0 /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		8EF8B7701C034AFE00856EA0 /* Noimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Noimage.png; sourceTree = "<group>"; };
+		8EF8B7721C034BDD00856EA0 /* HttpCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpCommands.h; sourceTree = "<group>"; };
+		8EF8B7731C034BDD00856EA0 /* HttpCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpCommands.m; sourceTree = "<group>"; };
+		8EF8B7751C034CA200856EA0 /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		8EF8B7761C034CA200856EA0 /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
+		8EF8B7781C03565A00856EA0 /* Facts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facts.h; sourceTree = "<group>"; };
+		8EF8B7791C03565A00856EA0 /* Facts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facts.m; sourceTree = "<group>"; };
+		FE742CCCF32B797F0FA2A83C /* Pods-iOSExercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSExercise.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSExercise/Pods-iOSExercise.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F6A9097337046BA360AEC8C /* libPods-iOSExercise.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +94,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		823E2243F2D8A41A05879896 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B94A41ED2E01FB1F8173662 /* Pods-iOSExercise.debug.xcconfig */,
+				FE742CCCF32B797F0FA2A83C /* Pods-iOSExercise.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8DCD6ED2BE00187AFA567463 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E9CE5E4EC6D1F2884019519 /* libPods-iOSExercise.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8EF8B72A1C03445000856EA0 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +118,8 @@
 				8EF8B74F1C03445000856EA0 /* iOSExerciseTests */,
 				8EF8B75A1C03445000856EA0 /* iOSExerciseUITests */,
 				8EF8B7341C03445000856EA0 /* Products */,
+				823E2243F2D8A41A05879896 /* Pods */,
+				8DCD6ED2BE00187AFA567463 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +136,12 @@
 		8EF8B7351C03445000856EA0 /* iOSExercise */ = {
 			isa = PBXGroup;
 			children = (
+				8EF8B76F1C034ACE00856EA0 /* Resources */,
+				8EF8B76E1C034AAA00856EA0 /* Class */,
+				8EF8B76D1C034A8B00856EA0 /* Model */,
+				8EF8B76C1C034A6A00856EA0 /* ViewControllers */,
 				8EF8B7391C03445000856EA0 /* AppDelegate.h */,
 				8EF8B73A1C03445000856EA0 /* AppDelegate.m */,
-				8EF8B73C1C03445000856EA0 /* ViewController.h */,
-				8EF8B73D1C03445000856EA0 /* ViewController.m */,
 				8EF8B73F1C03445000856EA0 /* Main.storyboard */,
 				8EF8B7421C03445000856EA0 /* Assets.xcassets */,
 				8EF8B7441C03445000856EA0 /* LaunchScreen.storyboard */,
@@ -140,6 +177,43 @@
 			path = iOSExerciseUITests;
 			sourceTree = "<group>";
 		};
+		8EF8B76C1C034A6A00856EA0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8EF8B7691C03450500856EA0 /* HomeTableViewController.h */,
+				8EF8B76A1C03450500856EA0 /* HomeTableViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8EF8B76D1C034A8B00856EA0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8EF8B7781C03565A00856EA0 /* Facts.h */,
+				8EF8B7791C03565A00856EA0 /* Facts.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8EF8B76E1C034AAA00856EA0 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				8EF8B7721C034BDD00856EA0 /* HttpCommands.h */,
+				8EF8B7731C034BDD00856EA0 /* HttpCommands.m */,
+				8EF8B7751C034CA200856EA0 /* Parser.h */,
+				8EF8B7761C034CA200856EA0 /* Parser.m */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		8EF8B76F1C034ACE00856EA0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8EF8B7701C034AFE00856EA0 /* Noimage.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EF8B7601C03445000856EA0 /* Build configuration list for PBXNativeTarget "iOSExercise" */;
 			buildPhases = (
+				D127C42D6FFB8F541E72FD16 /* Check Pods Manifest.lock */,
 				8EF8B72F1C03445000856EA0 /* Sources */,
 				8EF8B7301C03445000856EA0 /* Frameworks */,
 				8EF8B7311C03445000856EA0 /* Resources */,
+				E6CCA01A96B98BEAFB2C58AE /* Embed Pods Frameworks */,
+				5551F674E9BB87B11B02EF3B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,6 +322,7 @@
 			files = (
 				8EF8B7461C03445000856EA0 /* LaunchScreen.storyboard in Resources */,
 				8EF8B7431C03445000856EA0 /* Assets.xcassets in Resources */,
+				8EF8B7711C034AFE00856EA0 /* Noimage.png in Resources */,
 				8EF8B7411C03445000856EA0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,14 +343,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5551F674E9BB87B11B02EF3B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSExercise/Pods-iOSExercise-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D127C42D6FFB8F541E72FD16 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E6CCA01A96B98BEAFB2C58AE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSExercise/Pods-iOSExercise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8EF8B72F1C03445000856EA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EF8B73E1C03445000856EA0 /* ViewController.m in Sources */,
+				8EF8B76B1C03450500856EA0 /* HomeTableViewController.m in Sources */,
 				8EF8B73B1C03445000856EA0 /* AppDelegate.m in Sources */,
 				8EF8B7381C03445000856EA0 /* main.m in Sources */,
+				8EF8B77A1C03565A00856EA0 /* Facts.m in Sources */,
+				8EF8B7741C034BDD00856EA0 /* HttpCommands.m in Sources */,
+				8EF8B7771C034CA200856EA0 /* Parser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,9 +538,11 @@
 		};
 		8EF8B7611C03445000856EA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B94A41ED2E01FB1F8173662 /* Pods-iOSExercise.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOSExercise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VSS.iOSExercise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -420,9 +551,11 @@
 		};
 		8EF8B7621C03445000856EA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE742CCCF32B797F0FA2A83C /* Pods-iOSExercise.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOSExercise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VSS.iOSExercise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +629,7 @@
 				8EF8B7621C03445000856EA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EF8B7631C03445000856EA0 /* Build configuration list for PBXNativeTarget "iOSExerciseTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +638,7 @@
 				8EF8B7651C03445000856EA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EF8B7661C03445000856EA0 /* Build configuration list for PBXNativeTarget "iOSExerciseUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +647,7 @@
 				8EF8B7681C03445000856EA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

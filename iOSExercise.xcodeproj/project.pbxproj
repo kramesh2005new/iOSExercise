@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6F6A9097337046BA360AEC8C /* libPods-iOSExercise.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E9CE5E4EC6D1F2884019519 /* libPods-iOSExercise.a */; };
+		8E9D8C921C037FB600E1F6AA /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8E9D8C911C037FB600E1F6AA /* Podfile */; };
 		8EF8B7381C03445000856EA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8B7371C03445000856EA0 /* main.m */; };
 		8EF8B73B1C03445000856EA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8B73A1C03445000856EA0 /* AppDelegate.m */; };
 		8EF8B7411C03445000856EA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF8B73F1C03445000856EA0 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		0E9CE5E4EC6D1F2884019519 /* libPods-iOSExercise.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSExercise.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B94A41ED2E01FB1F8173662 /* Pods-iOSExercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSExercise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSExercise/Pods-iOSExercise.debug.xcconfig"; sourceTree = "<group>"; };
+		8E9D8C911C037FB600E1F6AA /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		8EF8B7331C03445000856EA0 /* iOSExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF8B7371C03445000856EA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EF8B7391C03445000856EA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 		8EF8B72A1C03445000856EA0 = {
 			isa = PBXGroup;
 			children = (
+				8E9D8C911C037FB600E1F6AA /* Podfile */,
 				8EF8B7351C03445000856EA0 /* iOSExercise */,
 				8EF8B74F1C03445000856EA0 /* iOSExerciseTests */,
 				8EF8B75A1C03445000856EA0 /* iOSExerciseUITests */,
@@ -320,6 +323,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E9D8C921C037FB600E1F6AA /* Podfile in Resources */,
 				8EF8B7461C03445000856EA0 /* LaunchScreen.storyboard in Resources */,
 				8EF8B7431C03445000856EA0 /* Assets.xcassets in Resources */,
 				8EF8B7711C034AFE00856EA0 /* Noimage.png in Resources */,
